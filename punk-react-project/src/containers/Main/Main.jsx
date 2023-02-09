@@ -1,9 +1,12 @@
 import React from 'react'
 import './Main.scss'
+import CardContainers from '../../components/CardContainers/CardContainers'
 
 const Main = () => {
   return (
-    <div className='main'>Main</div>
+    <div className='main'>
+      <CardContainers/>
+    </div>
   )
 }
 

@@ -1,5 +1,6 @@
 
 import './App.scss';
+import './data/punk.js'
 import Main from './containers/Main/Main';
 import NavBar from './containers/NavBar/NavBar';
 

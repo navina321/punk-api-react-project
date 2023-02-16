@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.beer-card {
+    border: 2px solid black;
+    width: 260px;
+    background-color: sandybrown;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+
+    &__img-container {
+        flex-basis: 20%;
+        height: 220px;
+        width: 220px;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        border: 2px solid lightgrey;
+        border-radius: 5px;
+
+        &--image {
+            height: 210px;
+            align-self: center;
+        }
+    
+    }
+
+    &__name{
+        height: 65px;
+        width: 240px;
+        //background-color: blanchedalmond;
+        font-size: 22px;
+        text-align: center;
+        align-self: center;
+    }
+
+    &__tag {
+        font-size: 20px;
+        text-align: center;
+    }
+    &__desc {
+        //background-color: lavender;
+        height: 150px;
+        width: 240px;
+        text-align: center;
+        font-size: 15px;
+    }
+    &__info {
+        //background-color: coral;
+        width: 240px;
+        margin-bottom: 15px;
+        &--title{
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.text-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
